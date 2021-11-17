@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campaña Form</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="/plugins/daterangepicker/daterangepicker.css">
+  <!-- iCheck for checkboxes and radio inputs -->
+  <link rel="stylesheet" href="/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Bootstrap Color Picker -->
+  <link rel="stylesheet" href="/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="/plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+  <!-- Bootstrap4 Duallistbox -->
+  <link rel="stylesheet" href="/plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
+  <!-- BS Stepper -->
+  <link rel="stylesheet" href="/plugins/bs-stepper/css/bs-stepper.min.css">
+  <!-- dropzonejs -->
+  <link rel="stylesheet" href="/plugins/dropzone/min/dropzone.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="/dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+
+<div class="container mt-5">
+      <div class="content">
+        <div class="row">
+          <div class="card card-primary">
+            <div class="card-header">
+              <h3 class="card-title">Campaña</h3>
+            </div>
+            <form action="">
+              <div class="card-body">
+                <div class="row">
+  
+                  <!-- NOMBRE -->
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Nombre de la campaña</label>
+                      <div class="input-group">
+                        <input type="text" class="form-control form-control-border  " id="nom_lider">
+                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- TIPO CAMPAÑA -->
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label>Tipo</label>
+                        <select id="id_ciudad" class="form-control form-control-border">
+                          <option selected>Tipo de campaña</option>
+                          <option value="cun">Bogota</option>
+                          <option value="boy">Fusagasuga</option>
+                          <option value="ant">Zipaquira</option>
+                        </select>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- LOGO -->
+                <div class="row mt-2 mb-2">
+                  <div class="col-sm-12">
+                    <label>Logo</label>
+                    <div class="input-group">
+                      <div class="custom-file">
+                        <input type="file" id="logo" class="custom-file-input">
+                        <label for="logo" class="custom-file-label">Selecciona su logo</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                  <div class="row">
+                    <div class="col text-center">
+                      <!-- BUTTON SUBMIT -->
+                    <button class="btn btn-primary">Enviar</button>
+                    </div>
+                  </div>
+
+                </div>
+
+                
+
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+</body>
+</html>

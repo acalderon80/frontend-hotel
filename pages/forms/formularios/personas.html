@@ -1,0 +1,253 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdminLTE 3 | General Form Elements</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+<div class="container mt-5">
+  <div class="content">
+    <div class="row-sm-6">
+
+        <div class="card card-primary">
+          <div class="card-header">
+            <h3 class="card-title">Persona Form</h3>
+          </div>
+          <form action="">
+            <div class="card-body">
+              <div class="row">
+
+                <!-- NOMBRES -->
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label>Primer nombre</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="fas fa-user"></i></span>
+                      <input type="text" class="form-control form-control-border" id="pri_nombre">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label ">Segundo nombre</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="far fa-user"></i></span>
+                      <input type="text" class="form-control form-control-border" id="seg_nombre">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- APELLIDOS -->
+              <div class="row mt-2">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label>Primer apellido</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control form-control-border" id="pri_apellido">
+                      <span class="input-group-text"><i class="fas fa-user"></i></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label>Segundo apellido</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control form-control-border" id="seg_apellido">
+                      <span class="input-group-text"><i class="far fa-user"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- IDENTIFICACION -->
+              <div class="row mt-2">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label>Tipo de identificacion</label>
+                    <select name="tipo_identificacion" id="tipo_identificacion" class="form-control form-control-border">
+                      <option selected>Elige tu tipo de identificación</option>
+                      <option value="cc">Cedula de ciudadania</option>
+                      <option value="ti">Tarjeta de identidad</option>
+                      <option value="rc">Registro Civil</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label>Numero de identificacion</label>
+                    <div class="input-group">
+                      <input type="number" class="form-control form-control-border" id="num_identificacion" min="1000000000">
+                      <span class="input-group-text"><i class="fas fa-id-card"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- EMAIL -->
+              <div class="row mt-2">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <input type="email" name="email" id="email" class="form-control form-control-border" placeholder="Correo Electronico">
+                      <span class="input-group-text" id="addon">@example.com</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- DIRECCION -->
+              <div class="row mt-2">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label>Direccion</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="fas fa-map-marked-alt"></i></span>
+                      <input type="text" class="form-control form-control-border" id="direccion">
+                    </div>
+                    
+                  </div>
+                </div>
+
+                <!-- TELEFONO -->
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label>Telefono</label>
+                    <div class="input-group">
+                      <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                      </div>
+                      <input type="tel" class="form-control form-control-border" >
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="row mt-2">
+
+                <!-- GENERO -->
+                <div class="col-sm-4">
+                  <div class="form-group">
+                    <label>Genero</label>
+                    <div class="input-group">
+                      <select name="genero" id="genero" class="form-control form-control-border">
+                        <option selected>Elige tu genero</option>
+                        <option value="cc">Masculino</option>
+                        <option value="ti">Femenino</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                  <!-- ZONA -->
+                  <div class="col-sm-4">
+                    <div class="form-group">
+                      <label>Zona</label>
+                      <div class="input-group">
+                        <select name="id_zona" id="id_zona" class="form-control form-control-border">
+                          <option selected>Elige tu zona</option>
+                          <option value="zona1">1</option>
+                          <option value="zona2">2</option>
+                          <option value="zona3">3</option>
+                          <option value="zona4">4</option>
+                          <option value="zona5">5</option>
+                          <option value="zona6">6</option>
+                          <option value="zona7">7</option>
+                          <option value="zona8">8</option>
+                          <option value="zona9">9</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- MESA -->
+                  <div class="col-sm-4">
+                    <div class="form-group">
+                      <label>Mesa</label>
+                      <div class="input-group">
+                        <select name="id_mesa" id="id_mesa" class="form-control form-control-border">
+                          <option selected>Elige tu mesa</option>
+                          <option value="mesa1">1</option>
+                          <option value="mesa2">2</option>
+                          <option value="mesa3">3</option>
+                          <option value="mesa4">4</option>
+                          <option value="mesa5">5</option>
+                          <option value="mesa6">6</option>
+                          <option value="mesa7">7</option>
+                          <option value="mesa8">8</option>
+                          <option value="mesa9">9</option>
+                          <option value="mesa10">10</option>
+                          <option value="mesa11">11</option>
+                          <option value="mesa12">12</option>
+                          <option value="mesa13">13</option>
+                          <option value="mesa14">14</option>
+                          <option value="mesa15">15</option>
+                          <option value="mesa16">16</option>
+                          <option value="mesa17">17</option>
+                          <option value="mesa18">18</option>
+                          <option value="mesa19">19</option>
+                          <option value="mesa20">20</option>
+                          <option value="mesa21">21</option>
+                          <option value="mesa22">22</option>
+                          <option value="mesa23">23</option>
+                          <option value="mesa24">24</option>
+                          <option value="mesa25">25</option>
+                          <option value="mesa26">26</option>
+                          <option value="mesa27">27</option>
+                          <option value="mesa28">28</option>
+                          <option value="mesa29">29</option>
+                          <option value="mesa30">30</option>
+                          <option value="mesa31">31</option>
+                          <option value="mesa32">32</option>
+                          <option value="mesa33">33</option>
+                          <option value="mesa34">34</option>
+                          <option value="mesa35">35</option>
+                          <option value="mesa36">36</option>
+                          <option value="mesa37">37</option>
+                          <option value="mesa38">38</option>
+                          <option value="mesa39">39</option>
+                          <option value="mesa40">40</option>
+                          <option value="mesa41">41</option>
+                          <option value="mesa42">42</option>
+                          <option value="mesa43">43</option>
+                          <option value="mesa44">44</option>
+                          <option value="mesa45">45</option>
+                          <option value="mesa46">46</option>
+                          <option value="mesa47">47</option>
+                          <option value="mesa48">48</option>
+                          <option value="mesa49">49</option>
+                          <option value="mesa50">50</option>
+                          </select>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col text-center">
+                      <!-- BUTTON SUBMIT -->
+                    <button class="btn btn-primary">Enviar</button>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

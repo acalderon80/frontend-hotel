@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campaña Form</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <div class="content">
+      <div class="row-sm-6">
+        <div class="card card-primary">
+          <div class="card-header">
+            <h3 class="card-title">Campaña</h3>
+          </div>
+          <form action="">
+            <div class="card-body">
+              <div class="row">
+
+                <!-- NOMBRE -->
+                <div class="col-sm-6">
+                  <div class="form-group">
+                      <label>Nombre de la campaña</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control form-control-border  " id="nom_lider">
+                      <span class="input-group-text"><i class="fas fa-user"></i></span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- TIPO CAMPAÑA -->
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label>Tipo</label>
+                      <select id="id_ciudad" class="form-control form-control-border">
+                        <option selected>Tipo de campaña</option>
+                        <option value="cun">Bogota</option>
+                        <option value="boy">Fusagasuga</option>
+                        <option value="ant">Zipaquira</option>
+                      </select>
+                  </div>
+                </div>
+              </div>
+
+              <!-- LOGO -->
+              <div class="row mt-2 mb-2">
+                <div class="col-sm-12">
+                  <label>Logo</label>
+                  <div class="input-group">
+                    <div class="custom-file">
+                      <input type="file" id="logo" class="custom-file-input">
+                      <label for="logo" class="custom-file-label">Selecciona su logo</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+        <div class="container mt-5">
+          <div class="content">
+            <div class="row-sm-6">
+              <div class="card card-primary">
+                <div class="card-header">
+                  <h3 class="card-title">Candidatos</h3>
+                </div>
+                <form action="">
+                  <div class="card-body">
+                    <div class="row">
+
+                      <!-- NOMBRE -->
+                      <div class="col-sm-6">
+                        <div class="form-group">
+                          <label for="">Nombre del candidato</label>
+                          <div class="input-group">
+                            <input type="text" class="form-control form-control-border  " id="nom_lider">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- FOTO -->
+                      <div class="col-sm-6">
+                        <div class="form-group">
+                          <label>Foto</label>
+                          <div class="input-group">
+                            <div class="custom-file">
+                              <input type="file" id="foto" class="custom-file-input">
+                              <label for="foto" class="custom-file-label">Selecciona el archivo</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- DESCRIPCION -->
+                    <div class="row mt-2 mb-2">
+                      <div class="col-sm-12">
+                        <div class="form-floating">
+                          <textarea name="descripcion" id="descripcion"class="form-control" style="height: 150px;"></textarea>
+                          <label for="descripcion">Descripción</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col text-center">
+                        <!-- BUTTON SUBMIT -->
+                        <button class="btn btn-primary">Enviar</button>
+                      </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+</body>
+
+
