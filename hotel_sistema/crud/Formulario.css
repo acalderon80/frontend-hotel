@@ -1,0 +1,48 @@
+
+.tabla{
+	background: white;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+.container{
+	background: black;
+	width: 70%;
+	padding-left: 20px;
+	padding-right: 25px;
+	margin: 0 auto;
+	padding-bottom: 25px;
+}
+.Campo label {
+	width: 100%;
+	font-size: 25px;
+}
+ .Campo input{
+	width: 100%;
+	font-size: 20px;
+	margin-bottom: 10px;
+ }
+.Boton {
+	width: 100%;
+}
+.Boton input{
+	text-decoration: none;
+	color: #fff; 
+	padding: 5px; 
+	background:#585CDE; 
+	border-radius: 10px;
+	font-size: 30px;
+	float: right;
+}
+.R_btn > a{
+	margin-right: 50px;
+	font-size: 25px;
+}
+.R_btn input{
+	width: 20px; 
+	height: 20px; 
+	margin-left: 10px; 
+	margin-right: 8px;
+}

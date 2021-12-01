@@ -1,0 +1,154 @@
+*{
+	font-family: arial;
+}
+.logo img{
+	width: 50px;
+	height: 50px;
+
+}
+.nav{
+	color: white;
+	padding:20px;
+	width: 100%;
+	margin-left: -10px;
+	height: 60px;
+	margin-top: -15px;
+	background: black;
+	position: fixed;
+}
+.menu-nav{
+	margin-left: 92%;
+	margin-top: -80px;
+}
+
+
+.logout img{
+width: 50px;
+height: 50px;
+
+}
+.menu-enlaces ul{
+ list-style: none;
+ padding-left: 20px;
+ display: flex;
+justify-content: flex-start;
+text-decoration: none;
+}
+
+.menu-enlaces ul li{
+text-decoration: none;
+padding-left: 50px;
+margin-top: -40px;
+
+}
+.menu-enlaces ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li :hover{
+  background :blue ;
+  cursor: pointer;
+  border-radius: 5px;
+
+  
+}
+.tabla{
+	padding-top: 10px;
+	margin-top: 80px;
+	background: black;
+	width: 90%;
+	height: 500px;
+	margin-right: 5%;
+	margin-left: 5%;
+	color: white;
+}
+.container{
+	width: 98%;
+	max-width: 98%;
+	margin: auto;
+	overflow:auto; 
+	margin-left: 1%;
+	margin-right: 1%; 
+}
+
+.table{
+	height: auto;
+	width: 1600PX;
+	background: white;
+	border-collapse: collapse;
+	table-layout: fixed;
+	font-size: 11px;
+	font-family: arial;
+	margin-top: 35px;
+
+
+}
+.table td{
+	text-align: center;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+
+
+}
+
+
+#fila1{
+	background: #585CDE;
+	color: white;
+	text-align: center;
+	height: 35px;
+}
+.fila2{
+background:#C2C4F8 ;
+
+}
+#tabla_registros td{
+	padding: 5px;
+}
+.paginas ul{
+
+	margin-right: 10px;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 3px;
+	list-style: none;
+	background: #585CDE;
+	margin-top: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	float: right;
+}
+.paginas a, .pageselector{
+
+	text-decoration: none;
+	color: #50277D;
+	border: 1px solid #585CDE;
+	padding: 5px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	width: 35px;
+}
+
+.pageselector{
+	color: #fff;
+	background: #585CDE;
+	border:1px solid #585CDE;
+}
+
+#nuevo{
+text-decoration: none;
+color: #fff; 
+padding: 10px; 
+background:#585CDE; 
+border-radius: 2px;
+height: 15px;
+margin-left: 47%;
+margin-right: 47%;
+margin-top: 50px;
+}
